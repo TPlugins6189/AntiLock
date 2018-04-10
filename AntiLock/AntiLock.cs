@@ -26,6 +26,11 @@ namespace ExtraConcentratedJuice.AntiLock
             var post = typeof(AskVehicleLockOverride).GetMethod("Postfix", BindingFlags.Static | BindingFlags.Public);
 
             harmony.Patch(orig, new HarmonyMethod(pre), new HarmonyMethod(post));
+
+            Logger.Log("Loaded AntiLock! Default locks allocated: " + Configuration.Instance.defaultLocks);
+            Logger.Log("Groups:");
+            foreach (LockGroup l in Configuration.Instance.lockGroups)
+                Logger.Log("  " + l.Permission + " | " + l.MaxLocks + " locks");
         }
 
         public override TranslationList DefaultTranslations =>
