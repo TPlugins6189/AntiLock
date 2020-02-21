@@ -34,22 +34,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>D:\Plugins\Private\THouse\Libraries\0Harmony.dll</HintPath>
+      <HintPath>..\Libraries\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\Unturned Workshop\plugin addons\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\Libraries\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\..\Unturned Workshop\plugin addons\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>..\Libraries\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.API">
-      <HintPath>..\..\Unturned Workshop\plugin addons\Rocket.API.dll</HintPath>
+      <HintPath>..\Libraries\Rocket.API.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.Core">
-      <HintPath>..\..\Unturned Workshop\plugin addons\Rocket.Core.dll</HintPath>
+      <HintPath>..\Libraries\Rocket.Core.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.Unturned">
-      <HintPath>..\..\Unturned Workshop\plugin addons\Rocket.Unturned.dll</HintPath>
+      <HintPath>..\Libraries\Rocket.Unturned.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,10 +58,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\Unturned Workshop\plugin addons\UnityEngine.dll</HintPath>
+      <HintPath>..\Libraries\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\Unturned Workshop\plugin addons\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\Libraries\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
